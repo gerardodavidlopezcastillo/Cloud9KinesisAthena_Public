@@ -1,0 +1,5 @@
+S3 prefix:
+de/st_Cloud9KinesisAthena/year=!{timestamp:YYYY}/month=!{timestamp:MM}/day=!{timestamp:dd}/hour=!{timestamp:HH}/
+
+For S3 error prefix:
+de/st_Cloud9KinesisAthenaErrors/!{firehose:error-output-type}/year=!{timestamp:YYYY}/month=!{timestamp:MM}/day=!{timestamp:dd}/hour=!{timestamp:HH}/
